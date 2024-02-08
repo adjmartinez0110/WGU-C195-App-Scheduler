@@ -1,53 +1,5 @@
 # WGU-C195-App-Scheduler
 
-COMPETENCIES
-4025.01.05 : Database and File Server Applications
-
-The graduate produces database and file server applications using advanced Java programming language constructs to meet business requirements.
-
-4025.01.06 : Lambda
-
-The graduate incorporates lambda expressions in application development to meet business requirements more efficiently.
-
-4025.01.07 : Collections
-
-The graduate incorporates streams and filters in application development to manipulate data more efficiently.
-
-4025.01.08 : Localization API and Date/Time API
-
-The graduate applies the localization API and date/time API in application development to support end-users in various geographical regions.
-
-4025.01.09 : Advanced Exception Control
-
-The graduate incorporates advanced exception control mechanisms in application development for improving user experience and application stability.
-
-INTRODUCTION
-Throughout your career in software design and development, you will be asked to create applications with various features and criteria based on a variety of business requirements. For this assessment, you will create your own GUI-based Java application with requirements that mirror those you will likely encounter in a real-world job assignment. 
-
-
-
-The skills you will showcase in this assessment are also directly relevant to technical interview questions for future employment. This application may become a portfolio piece for you to show to future employers.
-
-
-
-Several attachments and links have been included to help you complete this task. The attached “Database ERD” shows the entity relationship diagram (ERD) for this database, which you can reference as you create your application.
-
-
-
-For this task, you will use the Performance Assessment Lab Area accessed by the Performance Assessment Lab Area in the web link to access the virtual lab environment to complete this task. The preferred integrated development environment (IDE) for this assignment is IntelliJ IDEA (Community Edition). If you choose to use another IDE, you must export your project into NetBeans 11.1 or later, or IntelliJ format, or your submission will be returned. This assessment also requires the following software: JDK 17 (LTS), JavaFX SDK, and Scene Builder which are also available the Performance Assessment Lab Area.
-
- 
-
-Your submission should include a zip file with all the necessary code files to compile, support, and run your application. Your submission should also include an index.html file with reflective Javadoc comments in the .java files. The zip file submission must keep the project file and folder structure intact for the IDE. 
-
-
-
-In NetBeans, zip your file by going to File>Export Project>To ZIP and click Export. In IntelliJ Idea, go to File>Export to Zip File and click OK. If you try to zip your project files with an external program, it will include the build files and make the zip files too large for submission. 
-
-
-
-Note: You may receive an error message upon submitting your files because the automated plagiarism detectors at WGU will not be able to access a zipped file, but the evaluation team will run their checks manually when evaluating your submission.
-
 SCENARIO
 You are working for a software company that has been contracted to develop a GUI-based scheduling desktop application. The contract is with a global consulting organization that conducts business in multiple languages and has main offices in Phoenix, Arizona; White Plains, New York; Montreal, Canada; and London, England. The consulting organization has provided a MySQL database that the application must pull data from. The database is used for other systems, so its structure cannot be modified.
 
@@ -128,7 +80,6 @@ Note: The address text field should not include first-level division and country
 •  Customer data is displayed using a TableView, including first-level division data. A list of all the customers and their information may be viewed in a TableView, and updates of the data can be performed in text fields on the form.
 
 •  When a customer record is deleted, a custom message should display in the user interface.
-
 
 
 3.  Add scheduling functionalities to the GUI-based application by doing the following:
