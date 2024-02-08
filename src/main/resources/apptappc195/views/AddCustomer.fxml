@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f5f5dc;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apptappc195.appt.controller.AddCustomerController">
+   <children>
+      <Label layoutX="155.0" layoutY="47.0" prefHeight="38.0" prefWidth="251.0" text="Add Customer">
+         <font>
+            <Font name="Marlett" size="38.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addCustName" layoutX="282.0" layoutY="204.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField fx:id="addCustPostal" layoutX="282.0" layoutY="329.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField fx:id="addCustAddress" layoutX="282.0" layoutY="269.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField fx:id="addCustNumber" layoutX="282.0" layoutY="391.0" prefHeight="38.0" prefWidth="159.0" />
+      <Label layoutX="124.0" layoutY="212.0" text="Customer Name:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="277.0" text="Address:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="399.0" text="Phone Number:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="addCustState" layoutX="621.0" layoutY="148.0" prefHeight="38.0" prefWidth="127.0" />
+      <ComboBox fx:id="addCustCountry" layoutX="621.0" layoutY="204.0" onAction="#OnClickCountry" prefHeight="38.0" prefWidth="127.0" />
+      <Label layoutX="480.0" layoutY="152.0" text="State/Province:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="535.0" layoutY="212.0" text="Country:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font></Label>
+      <TextField fx:id="addCustID" disable="true" layoutX="282.0" layoutY="148.0" prefHeight="38.0" prefWidth="159.0" promptText="Auto Generated" />
+      <Label layoutX="155.0" layoutY="144.0" prefHeight="45.0" prefWidth="127.0" text="Customer ID:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="126.0" layoutY="337.0" text="Zip/Postal Code:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="addCustSave" layoutX="441.0" layoutY="498.0" mnemonicParsing="false" onAction="#OnClickSave" prefHeight="30.0" prefWidth="117.0" text="Save">
+         <font>
+            <Font name="Marlett" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addCustExit" layoutX="594.0" layoutY="498.0" mnemonicParsing="false" onAction="#OnClickExit" prefHeight="30.0" prefWidth="117.0" text="Exit">
+         <font>
+            <Font name="Marlett" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

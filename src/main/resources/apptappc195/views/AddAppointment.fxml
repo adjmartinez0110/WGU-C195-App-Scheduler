@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #f5f5dc;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apptappc195.appt.controller.AddAppointmentController">
+   <children>
+      <Label layoutX="67.0" layoutY="35.0" text="Add Appointment">
+         <font>
+            <Font name="Marlett" size="38.0" />
+         </font></Label>
+      <Label layoutX="189.0" layoutY="162.0" text="Title:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="114.0" text="Appointment ID:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="255.0" text="Location:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="212.0" text="Description:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="186.0" layoutY="349.0" text="Type:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="300.0" text="Contact:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="187.0" layoutY="405.0" text="Date:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="481.0" layoutY="114.0" text="Customer ID:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="518.0" layoutY="184.0" prefHeight="21.0" prefWidth="81.0" text="User ID:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addApptId" alignment="CENTER" disable="true" layoutX="244.0" layoutY="112.0" promptText="Disabled" />
+      <TextField fx:id="addApptTitle" layoutX="244.0" layoutY="160.0" />
+      <TextField fx:id="addApptDesc" layoutX="244.0" layoutY="210.0" />
+      <TextField fx:id="addApptLoc" layoutX="244.0" layoutY="253.0" />
+      <TextField fx:id="addApptType" layoutX="244.0" layoutY="347.0" />
+      <Button fx:id="addApptSave" layoutX="525.0" layoutY="447.0" mnemonicParsing="false" onAction="#OnClickSave" prefHeight="31.0" prefWidth="75.0" text="Save">
+         <font>
+            <Font name="Marlett" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="addApptExit" layoutX="624.0" layoutY="447.0" mnemonicParsing="false" onAction="#OnClickExit" prefHeight="31.0" prefWidth="75.0" text="Exit">
+         <font>
+            <Font name="Marlett" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="ContactComboBox" layoutX="244.0" layoutY="298.0" prefWidth="150.0" />
+      <DatePicker fx:id="dateDPicker" layoutX="244.0" layoutY="403.0" />
+      <ComboBox fx:id="custIDComboBox" layoutX="613.0" layoutY="112.0" prefWidth="150.0" />
+      <ComboBox fx:id="userIDComboBox" layoutX="613.0" layoutY="182.0" prefWidth="150.0" />
+      <ComboBox fx:id="startTimeComboBox" layoutX="613.0" layoutY="253.0" prefWidth="150.0" />
+      <Label layoutX="494.0" layoutY="255.0" prefHeight="21.0" prefWidth="106.0" text="Start Time:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="endTimeComboBox" layoutX="613.0" layoutY="321.0" prefWidth="150.0" />
+      <Label layoutX="506.0" layoutY="323.0" prefHeight="21.0" prefWidth="106.0" text="End Time:">
+         <font>
+            <Font name="Marlett" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
